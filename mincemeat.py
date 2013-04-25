@@ -37,6 +37,9 @@ import socket
 import sys
 import types
 import string
+import stopwords
+from stopwords import allStopWords
+import operator
 
 VERSION = "0.1.2"
 
